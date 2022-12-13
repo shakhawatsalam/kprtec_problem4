@@ -33,7 +33,17 @@ const NavBar = () => {
             </div>
           </div>
           <div className='blank2'></div>
-        </div>
+              </div>
+              <div className="second_section">
+                  <a href="#">NEWS</a>
+                  <a href="#">COMICS</a>
+                  <a href="#">CHARACTERS</a>
+                  <a href="#">MOVIES</a>
+                  <a href="#">TV SHOWS</a>
+                  <a href="#">GAMES</a>
+                  <a href="#">VIDEOS</a>
+                  <a href="#">MORE</a>
+              </div>
       </nav>
     </>
   );

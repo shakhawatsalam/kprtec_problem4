@@ -1,5 +1,5 @@
 .nav_container{
-    height: 130px;
+    height: 105px;
     background-color: #202020;
 }
 .first_section{
@@ -96,4 +96,21 @@
     width: 15%;
     height: 100%;
     border: 1px solid gray;  
+}
+
+.second_section {
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.second_section > a {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
 }
