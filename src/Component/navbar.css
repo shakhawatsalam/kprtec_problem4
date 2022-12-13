@@ -7,7 +7,7 @@
     justify-content:flex-start;
     align-items: center;
     height: 60px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 /* .first_section > div {
@@ -19,16 +19,17 @@
     height: 100%;
     /* float: left; */
     width: 15%;
-    border: 1px solid  yellow;
+    border: 1px solid  gray;
 }
 .signIN{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
+    border: 1px solid gray;
     height: 100%;
     width: 15%;
+    cursor: pointer;
 
 }
 .signIN > div {
@@ -38,11 +39,18 @@
 }
 .signIN > p {
     margin-left: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.signIN  > h2{
+    /* border: 1px solid greenyellow; */
+    margin-top: 5px;
+    font-size: 30px;
 }
 .logo {
     width: 40%;
     height: 100%;
-    border: 1px solid green;
+    border: 1px solid gray;
 }
 .img{
     height: 100%;
@@ -52,12 +60,40 @@
     width: 100%;
 }
 .unlimited{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 15%;
     height: 100%;
-    border: 1px solid palevioletred;
+    border: 1px solid gray;
+}
+.imgU{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    /* border: 1px solid fuchsia; */
+}
+
+.imgU > img{
+    width: 100%;
+    height: 100%;
+}
+.Sub_content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 8px;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* height: 50px; */
+}
+.Sub_content > p {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
 }
 .blank2{
     width: 15%;
     height: 100%;
-    border: 1px solid aqua;  
+    border: 1px solid gray;  
 }
