@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
-import Mlogo from "../Assets/Marvel_Logo.svg";
-import Ulogo from '../Assets/icon-mu-shield.png'
+import Mlogo from "../../Assets/Marvel_Logo.svg";
+import Ulogo from '../../Assets/icon-mu-shield.png'
 import { CiDollar } from "react-icons/ci";
 
 const NavBar = () => {
