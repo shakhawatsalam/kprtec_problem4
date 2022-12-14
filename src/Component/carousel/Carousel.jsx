@@ -14,25 +14,29 @@ import "swiper/css/navigation";
 // import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Autoplay, Navigation } from "swiper";
 
 const Carousel = () => {
   return (
     <>
       <div className='Swiper'>
-        <Swiper  style={{
-          "--swiper-navigation-color": "red",
-        }}
+        <Swiper
+          style={{
+            "--swiper-navigation-color": "red",
+          }}
           navigation={true}
-          modules={[Navigation]}
-          className='mySwiper'
+          // pagination={true}
           loop={true}
-          spaceBetween={2}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          modules={[Navigation, Autoplay, Pagination]}
+          className='mySwiper'
+          // spaceBetween={2}
           // grabCursor={true}
-
         >
           <SwiperSlide>
-            
             <div className='Image'>
               <img src={cImg} alt='' />
             </div>
@@ -44,7 +48,6 @@ const Carousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className='Image'>
-              <h1>hello</h1>
               <img src={cImg} alt='' />
             </div>
           </SwiperSlide>
