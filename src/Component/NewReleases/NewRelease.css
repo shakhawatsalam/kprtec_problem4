@@ -1,7 +1,7 @@
 .movie_content{
     /* border: 1px solid yellow; */
     margin-bottom: 5rem;
-    height: 500px;
+    /* height: 500px; */
     display: grid;
     gap: 10px;
     justify-items: center;
